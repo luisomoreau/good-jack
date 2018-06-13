@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdca4f04-7c67-4a4c-9db0-ad17afabe91e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/webapp/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/common/models/announcer.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/common/models/announcer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/server/model-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/server/model-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/app/layout/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/app/layout/header/header.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,39 +37,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="announcer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="announcer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/common/models/announcer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="420">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="association.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/common/models/association.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/app/layout/header/header.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="127" column="58" lean-forward="true" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/pages/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/app.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webapp/server.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="user.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/common/models/user.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datasources.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/server/datasources.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="datasources.local.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/server/datasources.local.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="middleware.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/server/middleware.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -80,20 +101,6 @@
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/common/models/project.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="middleware.development.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/server/middleware.development.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -126,7 +133,6 @@
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/webapp/src/app/layout/header/header.component.h.html" />
         <option value="$PROJECT_DIR$/webapp/src/app/layout/header/header.component.ts" />
-        <option value="$PROJECT_DIR$/webapp/src/app/layout/header/header.component.html" />
         <option value="$PROJECT_DIR$/webapp/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webapp/src/index.html" />
@@ -138,6 +144,7 @@
         <option value="$PROJECT_DIR$/webapp/package.json" />
         <option value="$PROJECT_DIR$/api/server/model-config.json" />
         <option value="$PROJECT_DIR$/api/common/models/announcer.json" />
+        <option value="$PROJECT_DIR$/webapp/src/app/layout/header/header.component.html" />
       </list>
     </option>
   </component>
@@ -186,26 +193,7 @@
             <path>
               <item name="good-jack" type="b2602c69:ProjectViewProjectNode" />
               <item name="good-jack" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="good-jack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="good-jack" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="good-jack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="good-jack" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="good-jack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="good-jack" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,6 +212,7 @@
       <recent name="$PROJECT_DIR$/webapp/src/assets/img/preloader" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webapp" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/api/server" />
     </key>
@@ -250,7 +239,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528912597412</updated>
-      <workItem from="1528912604273" duration="14200000" />
+      <workItem from="1528912604273" duration="15095000" />
     </task>
     <task id="LOCAL-00001" summary="[Fix] - Removed Loopback 4 API to create a Loopback 3 application as the user management was not ready yet.">
       <created>1528915133160</created>
@@ -378,18 +367,24 @@
       <option name="project" value="LOCAL" />
       <updated>1528926245829</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[Fix] - Fixed Typo">
+      <created>1528927658806</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528927658806</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14200000" />
+    <option name="totallyTimeSpent" value="15095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-710" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -397,7 +392,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.26069653" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.26069653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -434,35 +429,10 @@
     <MESSAGE value="[Fix] - changed Napa dependency from devDependencies to dependencies in package.json" />
     <MESSAGE value="[Feature] - added relation between models" />
     <MESSAGE value="[Fix] - Fixed depencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] - Fixed depencies" />
+    <MESSAGE value="[Fix] - Fixed Typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] - Fixed Typo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/routes.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/extras/settings/settings.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/extras/settings/settings.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/extras/settings/settings.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -635,13 +605,6 @@
     <entry file="file://$PROJECT_DIR$/api/common/models/user.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/common/models/association.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/common/models/campaign.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -717,16 +680,45 @@
     <entry file="file://$PROJECT_DIR$/api/common/models/user.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="28" />
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/common/models/announcer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="420">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/common/models/association.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/layout/header/header.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="127" column="58" lean-forward="true" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/pages/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/app.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/server.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

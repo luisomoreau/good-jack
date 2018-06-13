@@ -1,4 +1,7 @@
 /* tslint:disable */
+import {
+  Campaign
+} from '../index';
 
 declare var Object: any;
 export interface AnnouncerInterface {
@@ -6,6 +9,13 @@ export interface AnnouncerInterface {
   "name": string;
   "description": string;
   "logo"?: string;
+  "realm"?: string;
+  "username"?: string;
+  "email": string;
+  "emailVerified"?: boolean;
+  "password"?: string;
+  accessTokens?: any[];
+  campaigns?: Campaign[];
 }
 
 export class Announcer implements AnnouncerInterface {
@@ -13,6 +23,13 @@ export class Announcer implements AnnouncerInterface {
   "name": string;
   "description": string;
   "logo": string;
+  "realm": string;
+  "username": string;
+  "email": string;
+  "emailVerified": boolean;
+  "password": string;
+  accessTokens: any[];
+  campaigns: Campaign[];
   constructor(data?: AnnouncerInterface) {
     Object.assign(this, data);
   }
@@ -62,8 +79,44 @@ export class Announcer implements AnnouncerInterface {
           name: 'logo',
           type: 'string'
         },
+        "realm": {
+          name: 'realm',
+          type: 'string'
+        },
+        "username": {
+          name: 'username',
+          type: 'string'
+        },
+        "email": {
+          name: 'email',
+          type: 'string'
+        },
+        "emailVerified": {
+          name: 'emailVerified',
+          type: 'boolean'
+        },
+        "password": {
+          name: 'password',
+          type: 'string'
+        },
       },
       relations: {
+        accessTokens: {
+          name: 'accessTokens',
+          type: 'any[]',
+          model: '',
+          relationType: 'hasMany',
+                  keyFrom: 'id',
+          keyTo: 'userId'
+        },
+        campaigns: {
+          name: 'campaigns',
+          type: 'Campaign[]',
+          model: 'Campaign',
+          relationType: 'hasMany',
+                  keyFrom: 'id',
+          keyTo: 'announcerId'
+        },
       }
     }
   }

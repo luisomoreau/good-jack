@@ -1,16 +1,23 @@
 /* tslint:disable */
+import {
+  User
+} from '../index';
 
 declare var Object: any;
 export interface DonationInterface {
   "id"?: any;
   "amount": string;
   "currency": string;
+  "userId"?: any;
+  user?: User;
 }
 
 export class Donation implements DonationInterface {
   "id": any;
   "amount": string;
   "currency": string;
+  "userId": any;
+  user: User;
   constructor(data?: DonationInterface) {
     Object.assign(this, data);
   }
@@ -56,8 +63,20 @@ export class Donation implements DonationInterface {
           name: 'currency',
           type: 'string'
         },
+        "userId": {
+          name: 'userId',
+          type: 'any'
+        },
       },
       relations: {
+        user: {
+          name: 'user',
+          type: 'User',
+          model: 'User',
+          relationType: 'belongsTo',
+                  keyFrom: 'userId',
+          keyTo: 'id'
+        },
       }
     }
   }

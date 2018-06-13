@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 import { UserblockService } from './userblock.service';
+import {User} from '../../../shared/sdk/models';
+import {UserApi} from '../../../shared/sdk/services/custom';
 
 @Component({
     selector: 'app-userblock',
@@ -8,15 +10,19 @@ import { UserblockService } from './userblock.service';
     styleUrls: ['./userblock.component.scss']
 })
 export class UserblockComponent implements OnInit {
-    user: any;
-    constructor(public userblockService: UserblockService) {
+    //user: any;
+    private user: User;
 
-        this.user = {
-            picture: 'assets/img/user/01.jpg'
-        };
+    //public user: User = new User();
+
+    constructor(public userblockService: UserblockService, private userApi: UserApi,) {
+
+
     }
 
     ngOnInit() {
+      this.user = this.userApi.getCachedCurrent();
+      console.log(this.user);
     }
 
     userBlockIsVisible() {

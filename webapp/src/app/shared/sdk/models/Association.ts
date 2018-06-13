@@ -1,4 +1,7 @@
 /* tslint:disable */
+import {
+  Project
+} from '../index';
 
 declare var Object: any;
 export interface AssociationInterface {
@@ -6,6 +9,7 @@ export interface AssociationInterface {
   "name": string;
   "description": string;
   "logo"?: string;
+  projects?: Project[];
 }
 
 export class Association implements AssociationInterface {
@@ -13,6 +17,7 @@ export class Association implements AssociationInterface {
   "name": string;
   "description": string;
   "logo": string;
+  projects: Project[];
   constructor(data?: AssociationInterface) {
     Object.assign(this, data);
   }
@@ -64,6 +69,14 @@ export class Association implements AssociationInterface {
         },
       },
       relations: {
+        projects: {
+          name: 'projects',
+          type: 'Project[]',
+          model: 'Project',
+          relationType: 'hasMany',
+                  keyFrom: 'id',
+          keyTo: 'associationId'
+        },
       }
     }
   }

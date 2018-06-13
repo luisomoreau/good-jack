@@ -1,24 +1,38 @@
 /* tslint:disable */
+import {
+  Donation,
+  GeoPoint
+} from '../index';
 
 declare var Object: any;
 export interface UserInterface {
+  "avatar"?: string;
+  "loggedAt"?: Date;
+  "connected"?: boolean;
+  "location"?: GeoPoint;
   "realm"?: string;
   "username"?: string;
   "email": string;
   "emailVerified"?: boolean;
-  "id"?: number;
+  "id"?: any;
   "password"?: string;
   accessTokens?: any[];
+  donations?: Donation[];
 }
 
 export class User implements UserInterface {
+  "avatar": string;
+  "loggedAt": Date;
+  "connected": boolean;
+  "location": GeoPoint;
   "realm": string;
   "username": string;
   "email": string;
   "emailVerified": boolean;
-  "id": number;
+  "id": any;
   "password": string;
   accessTokens: any[];
+  donations: Donation[];
   constructor(data?: UserInterface) {
     Object.assign(this, data);
   }
@@ -48,10 +62,27 @@ export class User implements UserInterface {
   public static getModelDefinition() {
     return {
       name: 'User',
-      plural: 'Users',
-      path: 'Users',
+      plural: 'users',
+      path: 'users',
       idName: 'id',
       properties: {
+        "avatar": {
+          name: 'avatar',
+          type: 'string',
+          default: 'https://www.shareicon.net/data/128x128/2016/08/04/806683_man_512x512.png'
+        },
+        "loggedAt": {
+          name: 'loggedAt',
+          type: 'Date'
+        },
+        "connected": {
+          name: 'connected',
+          type: 'boolean'
+        },
+        "location": {
+          name: 'location',
+          type: 'GeoPoint'
+        },
         "realm": {
           name: 'realm',
           type: 'string'
@@ -70,7 +101,7 @@ export class User implements UserInterface {
         },
         "id": {
           name: 'id',
-          type: 'number'
+          type: 'any'
         },
         "password": {
           name: 'password',
@@ -82,6 +113,14 @@ export class User implements UserInterface {
           name: 'accessTokens',
           type: 'any[]',
           model: '',
+          relationType: 'hasMany',
+                  keyFrom: 'id',
+          keyTo: 'userId'
+        },
+        donations: {
+          name: 'donations',
+          type: 'Donation[]',
+          model: 'Donation',
           relationType: 'hasMany',
                   keyFrom: 'id',
           keyTo: 'userId'

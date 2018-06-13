@@ -1,11 +1,11 @@
 /* tslint:disable */
 import { Injectable } from '@angular/core';
-import { User } from '../../models/User';
 import { Association } from '../../models/Association';
 import { Donation } from '../../models/Donation';
 import { Project } from '../../models/Project';
 import { Announcer } from '../../models/Announcer';
 import { Campaign } from '../../models/Campaign';
+import { User } from '../../models/User';
 
 export interface Models { [name: string]: any }
 
@@ -13,12 +13,12 @@ export interface Models { [name: string]: any }
 export class SDKModels {
 
   private models: Models = {
-    User: User,
     Association: Association,
     Donation: Donation,
     Project: Project,
     Announcer: Announcer,
     Campaign: Campaign,
+    User: User,
     
   };
 

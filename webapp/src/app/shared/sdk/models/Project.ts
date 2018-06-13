@@ -6,7 +6,9 @@ export interface ProjectInterface {
   "title": string;
   "description": string;
   "logo"?: string;
-  "status": string;
+  "status": boolean;
+  "goal": number;
+  "associationId"?: any;
 }
 
 export class Project implements ProjectInterface {
@@ -14,7 +16,9 @@ export class Project implements ProjectInterface {
   "title": string;
   "description": string;
   "logo": string;
-  "status": string;
+  "status": boolean;
+  "goal": number;
+  "associationId": any;
   constructor(data?: ProjectInterface) {
     Object.assign(this, data);
   }
@@ -66,7 +70,15 @@ export class Project implements ProjectInterface {
         },
         "status": {
           name: 'status',
-          type: 'string'
+          type: 'boolean'
+        },
+        "goal": {
+          name: 'goal',
+          type: 'number'
+        },
+        "associationId": {
+          name: 'associationId',
+          type: 'any'
         },
       },
       relations: {

@@ -1,4 +1,7 @@
 /* tslint:disable */
+import {
+  Announcer
+} from '../index';
 
 declare var Object: any;
 export interface CampaignInterface {
@@ -7,6 +10,8 @@ export interface CampaignInterface {
   "description": string;
   "logo"?: string;
   "video"?: string;
+  "announcerId"?: any;
+  announcer?: Announcer;
 }
 
 export class Campaign implements CampaignInterface {
@@ -15,6 +20,8 @@ export class Campaign implements CampaignInterface {
   "description": string;
   "logo": string;
   "video": string;
+  "announcerId": any;
+  announcer: Announcer;
   constructor(data?: CampaignInterface) {
     Object.assign(this, data);
   }
@@ -68,8 +75,20 @@ export class Campaign implements CampaignInterface {
           name: 'video',
           type: 'string'
         },
+        "announcerId": {
+          name: 'announcerId',
+          type: 'any'
+        },
       },
       relations: {
+        announcer: {
+          name: 'announcer',
+          type: 'Announcer',
+          model: 'Announcer',
+          relationType: 'belongsTo',
+                  keyFrom: 'announcerId',
+          keyTo: 'id'
+        },
       }
     }
   }

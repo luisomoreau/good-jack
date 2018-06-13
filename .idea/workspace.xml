@@ -1,52 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdca4f04-7c67-4a4c-9db0-ad17afabe91e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/api/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/boot/authentication.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/boot/root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/component-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/datasources.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/middleware.development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/middleware.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/model-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/DEVELOPING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/application.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/controllers/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/controllers/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/controllers/ping.controller.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/datasources/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/models/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/repositories/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/sequence.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/test/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/test/mocha.opts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/test/ping.controller.acceptance.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tslint.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tslint.json" beforeDir="false" />
-    </list>
+    <list default="true" id="fdca4f04-7c67-4a4c-9db0-ad17afabe91e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -63,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="540">
-                <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+              <first_editor relative-caret-position="405">
+                <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               </first_editor>
               <second_editor>
                 <js_state />
@@ -209,12 +164,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528912597412</updated>
-      <workItem from="1528912604273" duration="1957000" />
+      <workItem from="1528912604273" duration="2234000" />
     </task>
+    <task id="LOCAL-00001" summary="[Fix] - Removed Loopback 4 API to create a Loopback 3 application as the user management was not ready yet.">
+      <created>1528915133160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528915133160</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1957000" />
+    <option name="totallyTimeSpent" value="2234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-710" width="1920" height="1080" extended-state="0" />
@@ -245,6 +208,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Fix] - Removed Loopback 4 API to create a Loopback 3 application as the user management was not ready yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Fix] - Removed Loopback 4 API to create a Loopback 3 application as the user management was not ready yet." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api/package.json">
@@ -307,8 +274,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="540">
-            <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           </first_editor>
           <second_editor>
             <js_state />

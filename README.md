@@ -61,3 +61,19 @@ We will also install the socket io client to have more fun :) (It is just a remi
 ```
 npm install --save @types/socket.io-client
 ```
+
+To start the webapp, run:
+
+```
+ng serve
+```
+
+### Deployment
+
+#### Try it now with [Heroku](https://heroku.com)
+
+Deploy an instance on your Heroku account to play around with it!
+
+Warning: When using the free plan, the application goes to sleep after 30 min of inactivity (checkout the [pricing](https://www.heroku.com/pricing)).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)

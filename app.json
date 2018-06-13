@@ -1,0 +1,13 @@
+{
+  "name": "Good Jack",
+  "description": "Donations project - From a simple REST API in nodeJS using loopback Framework to Angular 6 integration.",
+  "repository": "https://github.com/luisomoreau/good-jack",
+  "logo": "http://bdfjade.com/data/out/48/5551107-parrot-image.png",
+  "keywords": [
+    "node",
+    "express",
+    "loopback",
+    "angular 6",
+    "realtime"
+  ]
+}

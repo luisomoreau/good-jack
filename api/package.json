@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint && nsp check",
+    "build:sdk": "./node_modules/.bin/lb-sdk server/server.js ./webapp/src/app/shared/sdk"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -22,6 +23,7 @@
     "strong-error-handler": "^2.0.0"
   },
   "devDependencies": {
+    "@mean-expert/loopback-sdk-builder": "^2.3.1",
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
     "nsp": "^2.1.0"

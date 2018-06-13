@@ -22,7 +22,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "associations": {
+      "type": "hasMany",
+      "model": "association",
+      "foreignKey": "userId"
+    },
+    "projects": {
+      "type": "hasMany",
+      "model": "project",
+      "foreignKey": "userId"
+    },
+    "donations": {
+      "type": "hasMany",
+      "model": "donation",
+      "foreignKey": "userId"
+    },
+  },
   "acls": [],
   "methods": {}
 }

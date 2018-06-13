@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdca4f04-7c67-4a4c-9db0-ad17afabe91e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/environments/environment.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,12 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1029">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="532">
-                <caret line="58" column="143" selection-start-line="58" selection-start-column="143" selection-end-line="58" selection-end-column="143" />
+              <first_editor relative-caret-position="572">
+                <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="42" />
               </first_editor>
               <second_editor>
                 <js_state />
@@ -30,18 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-269" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webapp/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
                 <element signature="e#158#199#0" expanded="true" />
@@ -50,41 +58,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="campaign.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/common/models/campaign.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datasources.local.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/server/datasources.local.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="authentication.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/server/boot/authentication.js">
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+              <folding>
+                <element signature="e#85#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.prod.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/environments/environment.prod.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/environments/environment.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/app/core/core.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/routes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,16 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/server/config.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,6 +150,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/api/server/middleware.json" />
         <option value="$PROJECT_DIR$/api/package.json" />
+        <option value="$PROJECT_DIR$/webapp/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/webapp/src/environments/environment.prod.ts" />
+        <option value="$PROJECT_DIR$/webapp/src/environments/environment.ts" />
         <option value="$PROJECT_DIR$/webapp/src/app/app.module.ts" />
       </list>
     </option>
@@ -200,7 +222,7 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="good-jack" type="b2602c69:ProjectViewProjectNode" />
@@ -208,8 +230,14 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="good-jack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="good-jack" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,6 +248,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/webapp/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -250,7 +279,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528912597412</updated>
-      <workItem from="1528912604273" duration="6031000" />
+      <workItem from="1528912604273" duration="6780000" />
     </task>
     <task id="LOCAL-00001" summary="[Fix] - Removed Loopback 4 API to create a Loopback 3 application as the user management was not ready yet.">
       <created>1528915133160</created>
@@ -301,26 +330,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528919096358</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[Feature] - Imported Loopback SDK into angular app.module.ts">
+      <created>1528919291713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528919291713</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6031000" />
+    <option name="totallyTimeSpent" value="6780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-710" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16453674" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32935324" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.26069653" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.26069653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -346,7 +381,8 @@
     <MESSAGE value="[Feature] - Added loopback SDK builder to generate angular models from loopback models" />
     <MESSAGE value="[Feature] - Updated README with angular model generator and socket io" />
     <MESSAGE value="[Fix] - Fixed SDK generation path" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Fix] - Fixed SDK generation path" />
+    <MESSAGE value="[Feature] - Imported Loopback SDK into angular app.module.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feature] - Imported Loopback SDK into angular app.module.ts" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/api/src/models/README.md">
@@ -477,30 +513,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="532">
-            <caret line="58" column="143" selection-start-line="58" selection-start-column="143" selection-end-line="58" selection-end-column="143" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-269" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/server/config.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/api/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -511,14 +530,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/core/core.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/routes/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding>
+            <element signature="e#85#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="210">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
             <element signature="e#158#199#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1029">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="572">
+            <caret line="61" selection-start-line="61" selection-end-line="61" selection-end-column="42" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>

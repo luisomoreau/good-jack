@@ -12,7 +12,7 @@ import {LayoutModule} from './layout/layout.module';
 import {SharedModule} from './shared/shared.module';
 import {RoutesModule} from './routes/routes.module';
 
-//
+// Import loopback SDK
 import {SDKBrowserModule} from './shared/sdk/index';
 
 // https://github.com/ocombe/ng2-translate/issues/218

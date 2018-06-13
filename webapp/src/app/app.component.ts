@@ -2,6 +2,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 declare var $: any;
 
 import { SettingsService } from './core/settings/settings.service';
+import { LoopBackConfig } from './shared/sdk/index';
 
 @Component({
     selector: 'app-root',

@@ -25,7 +25,12 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "projects": {
+      "type": "hasMany",
+      "model": "project"
+    }
+  },
   "acls": [],
   "methods": {}
 }

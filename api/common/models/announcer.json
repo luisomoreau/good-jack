@@ -25,7 +25,12 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "campaings": {
+      "type": "hasMany",
+      "model": "campaing"
+    }
+  },
   "acls": [],
   "methods": {}
 }

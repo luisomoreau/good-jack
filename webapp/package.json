@@ -87,7 +87,7 @@
     "weather-icons": "github:erikflowers/weather-icons",
     "web-animations-js": "2.2.1",
     "zone.js": "0.8.26",
-    "napa": "3.0.0",
+    "napa": "3.0.0"
   },
   "devDependencies": {
     "@angular/compiler-cli": "6.0.0",

@@ -24,12 +24,21 @@
       "required": false
     },
     "status": {
-      "type": "string",
+      "type": "boolean",
+      "required": true
+    },
+    "goal": {
+      "type": "number",
       "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "assocation": {
+      "type": "belongsTo",
+      "model": "assocation"
+    }
+  },
   "acls": [],
   "methods": {}
 }

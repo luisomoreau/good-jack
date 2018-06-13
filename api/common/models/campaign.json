@@ -29,7 +29,12 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "announcer": {
+      "type": "belongsTo",
+      "model": "announcer"
+    }
+  },
   "acls": [],
   "methods": {}
 }

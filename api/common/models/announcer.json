@@ -1,7 +1,7 @@
 {
   "name": "announcer",
   "plural": "announcers",
-  "base": "PersistedModel",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -26,9 +26,10 @@
   },
   "validations": [],
   "relations": {
-    "campaings": {
+    "campaigns": {
       "type": "hasMany",
-      "model": "campaing"
+      "model": "campaign",
+      "foreignKey": "announcerId"
     }
   },
   "acls": [],

@@ -23,8 +23,8 @@ import { Error500Component } from './error500/error500.component';
 
 @NgModule({
     imports: [
-        SharedModule,
-        // RouterModule.forChild(routes)
+      SharedModule,
+      // RouterModule.forChild(routes)
     ],
     declarations: [
         LoginComponent,

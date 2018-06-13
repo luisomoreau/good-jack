@@ -31,7 +31,9 @@ npm i
 To start the application run:
 
 ```
-npm start
+MONGODB_URI="mongodb://<user>:<password>@<url>:<port>/<dbname>" npm start
 ```
+
+
 
 Go to http://localhost:3000/explorer to see the API explorer

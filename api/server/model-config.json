@@ -34,5 +34,25 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "association": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "donation": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "project": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "announcer": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "campaign": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
